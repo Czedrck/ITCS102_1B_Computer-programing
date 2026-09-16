@@ -15,7 +15,7 @@ if age >= 21 and isEmployed == True:
       if annual >= 100000:
          print("You have a High Annual Income")
          base_rate = 4.5
-         print("HI, Your interest rate is ", annual)
+         print("HI, Your interest rate is ", base_rate)
       else :
          base_rate = 5.0
          print("Hi, Your interest rate is ", base_rate)
