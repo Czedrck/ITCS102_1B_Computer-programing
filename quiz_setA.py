@@ -57,31 +57,3 @@ if age >= 21 and yrs_b >= 2 and has_defaults == False:
 else :
     print("REJECTED: HIGH RISK APPLICATION OR INELEGIBLE OWNER")
 
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
