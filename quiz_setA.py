@@ -25,26 +25,26 @@ if age >= 21 and yrs_b >= 2 and has_defaults == False:
             base_fee = max_limit * 0.025
             print("BASE FEE RATE IS", base_fee)
 
-        if c_value >= max_loan :
+        if c_value >= max_limit :
             print("COLLATERAL", collateral, "ACCEPTED")
         else :
             print("COLLATERAL NOT ACCEPTED")
 
-        surcharge = max_loan * base_fee
+        surcharge = max_limit * base_fee
         if c_value % 5000 != 0:
             surcharge += 0 
 
     elif cc <= 720 and cc < 720: #tier2
-        max_loan = rev * 1.5
-        print("MAX LOAN IS SET TO ", max_loan)
+        max_limit = rev * 1.5
+        print("MAX LOAN IS SET TO ", max_limit)
         if yrs_b >= 5:
-            base_fee = max_loan * 0.02
+            base_fee = max_limit * 0.02
             print("BASE FEE RATE IS ", base_fee)
         else :
-            base_fee = max_loan * 0.035
+            base_fee = max_limit * 0.035
             print("BASE FEE RATE IS ", base_fee)
 
-        if c_value >= max_loan :
+        if c_value >= max_limit :
             print("COLLATERAL", collateral, "ACCEPTED")
         else :
             print("COLLATERAL NOT ACCEPTED")
